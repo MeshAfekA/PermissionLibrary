@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PermissionLibrary</string>
+    <string-array name="planets_array">
+        <item>READ_CALENDAR</item>
+        <item>READ_CALL_LOG</item>
+        <item>READ_EXTERNAL_STORAGE</item>
+        <item>WRITE_CALENDAR</item>
+        <item>WRITE_CALL_LOG</item>
+        <item>WRITE_EXTERNAL_STORAGE</item>
+        <item>READ_CONTACTS</item>
+        <item>WRITE_CONTACTS</item>
+        <item>READ_PHONE_STATE</item>
+        <item>READ_PHONE_NUMBERS</item>
+        <item>READ_SMS</item>
+        <item>CALL_PHONE</item>
+        <item>CAMERA</item>
+        <item>GET_ACCOUNTS</item>
+        <item>ACCESS_FINE_LOCATION</item>
+        <item>ACCESS_COARSE_LOCATION</item>
+        <item>RECORD_AUDIO</item>
+        <item>BODY_SENSORS</item>
+        <item>SEND_SMS</item>
+        <item>RECEIVE_SMS</item>
+        <item>RECEIVE_WAP_PUSH</item>
+    </string-array>
+</resources>

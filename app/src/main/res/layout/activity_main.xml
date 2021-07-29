@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Permissions"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="80dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Approved"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title"
+        android:visibility="invisible"
+        android:textColor="@color/black">
+    </TextView>
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/result"
+        android:layout_marginTop="40dp">
+
+        <Spinner
+            android:id="@+id/planets_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:outlineAmbientShadowColor="@color/white"
+            android:outlineSpotShadowColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="Check"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:layout_below="@+id/ll">
+    </Button>
+</RelativeLayout>
